@@ -20,4 +20,4 @@ jobs:
     - name: Install dependencies
       run: dotnet restore consume-test/consume-test.csproj
     - name: Check version
-      run: dotnet restore consume-test/consume-test.csproj 0.0.50.0
+      run: dotnet run --project consume-test/consume-test.csproj 0.0.50.0
