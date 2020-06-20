@@ -18,6 +18,6 @@ jobs:
       with:
         dotnet-version: 3.1.101
     - name: Install dependencies
-      run: dotnet restore consume-test/consume-test.csproj
+      run: dotnet restore consume-test/consume-test.csproj -p:TreatWarningsAsErrors=true
     - name: Check version
       run: dotnet run --project consume-test/consume-test.csproj 0.0.50.0
