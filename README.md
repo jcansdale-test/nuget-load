@@ -6,3 +6,4 @@ Lots of packages!
 
 - Check any version of this package can be added
 ![Add package tests](https://github.com/jcansdale-test/nuget-load/workflows/Add%20package%20tests/badge.svg)
+
